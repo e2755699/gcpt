@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace gcpt
 {
@@ -7,6 +8,7 @@ namespace gcpt
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Thread.Sleep(1000000);
         }
     }
 }
